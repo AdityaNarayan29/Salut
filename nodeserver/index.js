@@ -1,5 +1,5 @@
 //node server which will handle socket.io connections
-const io = require('socket.io')()
+const io = require('socket.io')('http://localhost:')
 
 const users = {};
 
